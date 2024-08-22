@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+    <!-- Background -->
+    <rect width="800" height="600" fill="#f3f4f6"/>
+
+    <!-- Sidebar -->
+    <rect width="200" height="600" fill="#1f2937"/>
+
+    <!-- Sidebar Menu Items -->
+    <text x="20" y="40" fill="white" font-family="Arial, sans-serif" font-size="18" font-weight="bold">MatterV</text>
+    <text x="20" y="80" fill="#9ca3af" font-family="Arial, sans-serif" font-size="14">Dashboard</text>
+    <text x="20" y="110" fill="#ffffff" font-family="Arial, sans-serif" font-size="14">Virtual Machines</text>
+    <text x="20" y="140" fill="#9ca3af" font-family="Arial, sans-serif" font-size="14">Storage</text>
+    <text x="20" y="170" fill="#9ca3af" font-family="Arial, sans-serif" font-size="14">Network</text>
+
+    <!-- Main Content Area -->
+    <text x="220" y="40" fill="#111827" font-family="Arial, sans-serif" font-size="24" font-weight="bold">Virtual Machines</text>
+
+    <!-- Radio Buttons (Corrected Position) -->
+    <circle cx="230" cy="70" r="8" fill="#3b82f6"/>
+    <circle cx="230" cy="70" r="4" fill="white"/>
+    <text x="250" y="75" fill="#111827" font-family="Arial, sans-serif" font-size="14">MatterV VMs</text>
+
+    <circle cx="380" cy="70" r="8" fill="white" stroke="#3b82f6" stroke-width="2"/>
+    <text x="400" y="75" fill="#111827" font-family="Arial, sans-serif" font-size="14">VMware VMs</text>
+
+    <!-- VM List -->
+    <rect x="220" y="90" width="560" height="490" fill="white" stroke="#e5e7eb" stroke-width="2"/>
+
+    <!-- Table Headers -->
+    <text x="235" y="120" fill="#6b7280" font-family="Arial, sans-serif" font-size="12">NAME</text>
+    <text x="335" y="120" fill="#6b7280" font-family="Arial, sans-serif" font-size="12">STATUS</text>
+    <text x="495" y="120" fill="#6b7280" font-family="Arial, sans-serif" font-size="12">HOST</text>
+    <text x="595" y="120" fill="#6b7280" font-family="Arial, sans-serif" font-size="12">CPU</text>
+    <text x="635" y="120" fill="#6b7280" font-family="Arial, sans-serif" font-size="12">MEMORY</text>
+    <text x="700" y="120" fill="#6b7280" font-family="Arial, sans-serif" font-size="12">STORAGE</text>
+
+    <!-- MatterV VMs -->
+    <!-- VM 1 (Migrating) -->
+    <text x="235" y="150" fill="#111827" font-family="Arial, sans-serif" font-size="12">vmware-web-01</text>
+    <rect x="335" y="135" width="140" height="20" rx="10" fill="#fbbf24"/>
+    <text x="405" y="149" fill="white" font-family="Arial, sans-serif" font-size="10" text-anchor="middle">Migrating (50% complete)</text>
+    <text x="495" y="150" fill="#111827" font-family="Arial, sans-serif" font-size="12">matter-host-1</text>
+    <text x="595" y="150" fill="#111827" font-family="Arial, sans-serif" font-size="12">4</text>
+    <text x="635" y="150" fill="#111827" font-family="Arial, sans-serif" font-size="12">16 GB</text>
+    <text x="700" y="150" fill="#111827" font-family="Arial, sans-serif" font-size="12">100 GB</text>
+
+    <!-- VM 2 (Migrating) -->
+    <text x="235" y="180" fill="#111827" font-family="Arial, sans-serif" font-size="12">vmware-app-01</text>
+    <rect x="335" y="165" width="140" height="20" rx="10" fill="#fbbf24"/>
+    <text x="405" y="179" fill="white" font-family="Arial, sans-serif" font-size="10" text-anchor="middle">Migrating (30% complete)</text>
+    <text x="495" y="180" fill="#111827" font-family="Arial, sans-serif" font-size="12">matter-host-2</text>
+    <text x="595" y="180" fill="#111827" font-family="Arial, sans-serif" font-size="12">2</text>
+    <text x="635" y="180" fill="#111827" font-family="Arial, sans-serif" font-size="12">8 GB</text>
+    <text x="700" y="180" fill="#111827" font-family="Arial, sans-serif" font-size="12">200 GB</text>
+
+    <!-- VM 3 (Existing MatterV VM) -->
+    <text x="235" y="210" fill="#111827" font-family="Arial, sans-serif" font-size="12">matter-db-01</text>
+    <rect x="335" y="195" width="60" height="20" rx="10" fill="#10b981"/>
+    <text x="365" y="209" fill="white" font-family="Arial, sans-serif" font-size="10" text-anchor="middle">RUNNING</text>
+    <text x="495" y="210" fill="#111827" font-family="Arial, sans-serif" font-size="12">matter-host-1</text>
+    <text x="595" y="210" fill="#111827" font-family="Arial, sans-serif" font-size="12">8</text>
+    <text x="635" y="210" fill="#111827" font-family="Arial, sans-serif" font-size="12">64 GB</text>
+    <text x="700" y="210" fill="#111827" font-family="Arial, sans-serif" font-size="12">500 GB</text>
+
+    <!-- VM 4 (Existing MatterV VM) -->
+    <text x="235" y="240" fill="#111827" font-family="Arial, sans-serif" font-size="12">matter-test-01</text>
+    <rect x="335" y="225" width="60" height="20" rx="10" fill="#f59e0b"/>
+    <text x="365" y="239" fill="white" font-family="Arial, sans-serif" font-size="10" text-anchor="middle">STOPPED</text>
+    <text x="495" y="240" fill="#111827" font-family="Arial, sans-serif" font-size="12">matter-host-2</text>
+    <text x="595" y="240" fill="#111827" font-family="Arial, sans-serif" font-size="12">2</text>
+    <text x="635" y="240" fill="#111827" font-family="Arial, sans-serif" font-size="12">4 GB</text>
+    <text x="700" y="240" fill="#111827" font-family="Arial, sans-serif" font-size="12">50 GB</text>
+
+</svg>
